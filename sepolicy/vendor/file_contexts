@@ -32,3 +32,6 @@
 
 # Thermal
 /data/vendor/thermal(/.*)?                      u:object_r:thermal_data_file:s0
+
+# Platina dt2w
+/proc/touchpanel/wake_gesture u:object_r:sysfs_tap_to_wake:s0
