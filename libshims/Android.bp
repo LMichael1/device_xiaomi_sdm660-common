@@ -9,6 +9,11 @@ cc_library_shared {
 }
 
 cc_library_shared {
+    name: "libshim_wfdservice",
+    srcs: ["wfdservice_shim.cpp"],   
+}
+
+cc_library_shared {
     name: "libcutils_shim",
     srcs: [
         "libcutils_shim/strdup8to16.cpp",
