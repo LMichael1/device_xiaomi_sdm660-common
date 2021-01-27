@@ -42,7 +42,8 @@ PRODUCT_VENDOR_KERNEL_HEADERS := device/xiaomi/sdm660-kernel/sdm660/kernel-heade
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/interfaces \
-    hardware/google/pixel
+    hardware/google/pixel \
+    vendor/qcom/opensource/data-ipa-cfg-mgr
 
 # Permissions
 PRODUCT_COPY_FILES += \
