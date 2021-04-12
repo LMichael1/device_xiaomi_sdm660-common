@@ -201,3 +201,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # WFD
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.debug.wfd.enable=0
+
+# IORap
+PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
+    iorapd.perfetto.enable=true \
+    iorapd.readahead.enable=true
