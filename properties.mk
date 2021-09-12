@@ -207,7 +207,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Time
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.delta_time.enable=true
-
-# WFD
-PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
-    persist.debug.wfd.enable=1
